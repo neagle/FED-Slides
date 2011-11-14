@@ -1,0 +1,57 @@
+/*
+  Google HTML5 slides template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+*/
+
+/* FED Styles */
+
+@font-face {
+    font-family: 'DIN Next Rounded LT Pro';
+    src: url('fonts/DINNextRoundedLTPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'DIN Next Rounded LT Pro';
+    src: url('fonts/DINNextRoundedLTPro-Medium.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('fonts/consola.ttf');
+}
+
+.slides.template-fed > article:not(.nobackground):not(.biglogo) {
+    background: url( http://o.aolcdn.com/os/fed/images/fed-logo-small.png ) 710px 625px no-repeat;  
+    background-color: white;  
+} 
+
+.slides.template-fed.layout-widescreen > article:not(.nobackground):not(.biglogo),
+.slides.template-fed.layout-faux-widescreen > article:not(.nobackground):not(.biglogo) {
+    background-position: 900px 625px !important;
+}
+
+.slides.template-fed > article {
+    font-family: 'DIN Next Rounded LT Pro', Arial, sans-serif;
+}
+
+.slides.template-fed h1 {
+    font-weight: bold;
+}
+
+.slides.template-fed pre,
+.slides.template-fed code {
+    font-family: 'Consola', monospace;
+}
+
+.template-fed article.fill img {
+    width: 100%;
+    height: 100%;
+}
